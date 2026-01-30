@@ -1,0 +1,20 @@
+Can I do partial work?
+Is my rate fixed?
+Are deadlines fixed?
+
+If YES YES YES → EDF.
+
+If ANY is NO → NOT EDF.
+
+
+
+When is EDF (Earliest Deadline First) applicable?
+
+EDF is applicable iff all three are true:
+
+Condition	Meaning
+1️⃣ Fixed deadlines	Each task has a fixed time when it must finish
+2️⃣ Uniform processing rate	You can do a constant amount of work per unit time
+3️⃣ Work is divisible	You can partially process tasks
+
+If all three hold, EDF is provably optimal.
