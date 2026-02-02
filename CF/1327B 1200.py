@@ -25,4 +25,5 @@ for _ in range(int(input())):
                         break
                 print(i + 1, j)
 
+
                 break
